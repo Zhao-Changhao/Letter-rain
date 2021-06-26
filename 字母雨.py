@@ -14,7 +14,7 @@ pygame.Surface.convert(bg_suface)
 
 bg_suface.fill(pygame.Color(0, 0, 0, 28))
 winSur.fill((0, 0, 0))
-letter = ['C', 'H', 'A', 'N', 'G', 'H', 'A', 'O', 'P', 'Y']
+letter = ['C', 'H', 'A', 'N', 'G', 'H', 'A', 'O', 'N', 'B']
 texts = [font.render(str(letter[i]),
                      True,
                      (random.randint(0, 255),
